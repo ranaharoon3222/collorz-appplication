@@ -9,7 +9,20 @@
 }
 img.logo2 {
   max-width: 70px;
-  position: fixed;
+  position: absolute;
   left: 8px;
   top: 5px;
+}
+
+@media all and (max-width: 768px) {
+  .logo_top {
+    max-width: 158px;
+    margin: auto;
+    top: 18px;
+    margin-left: auto !important;
+    margin-right: 12px;
+  }
+  img.logo2 {
+    max-width: 60px;
+  }
 }
