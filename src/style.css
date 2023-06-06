@@ -1,0 +1,15 @@
+.logo_top {
+  max-width: 280px;
+  margin: auto;
+  display: block;
+  background: white;
+  border-radius: 12px;
+  position: relative;
+  top: 30px;
+}
+img.logo2 {
+  max-width: 70px;
+  position: fixed;
+  left: 8px;
+  top: 5px;
+}
