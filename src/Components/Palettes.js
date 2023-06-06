@@ -89,7 +89,8 @@ function Palettes() {
 
   return (
     <PalettesStyled>
-      <div>
+      <div className='fxd'>
+        {/* <img src='/logo2.png' className='logo2m' alt='' /> */}
         <img src='/logos.png' className='logo_top' alt='' />
       </div>
       <div className='add-palette'>

@@ -24,5 +24,7 @@ img.logo2 {
   }
   img.logo2 {
     max-width: 60px;
+    left: auto;
+    right: 179px;
   }
 }
