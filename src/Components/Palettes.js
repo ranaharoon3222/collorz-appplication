@@ -128,6 +128,7 @@ function Palettes() {
                   );
                 })}
               </div>
+
               <p>{pal.name}</p>
             </Link>
           );
