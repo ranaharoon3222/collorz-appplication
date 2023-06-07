@@ -4,8 +4,6 @@
   display: block;
   background: white;
   border-radius: 12px;
-  position: relative;
-  top: 30px;
 }
 img.logo2 {
   max-width: 70px;
@@ -14,17 +12,26 @@ img.logo2 {
   top: 5px;
 }
 
+.fxd {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 420px;
+}
+img.logo2m {
+  max-width: 120px;
+}
 @media all and (max-width: 768px) {
   .logo_top {
     max-width: 158px;
-    margin: auto;
-    top: 18px;
-    margin-left: auto !important;
-    margin-right: 12px;
   }
-  img.logo2 {
-    max-width: 60px;
-    left: auto;
-    right: 179px;
+  img.logo2m {
+    max-width: 90px;
+  }
+  .fxd {
+    justify-content: center;
+  }
+  .logo_top {
+    margin: 0;
   }
 }

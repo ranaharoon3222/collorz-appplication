@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <AppStyled bg={bg} grid={bg2}>
-        <img src='/logo2.png' className='logo2' alt='' />
         <div className='grid'></div>
         <Routes>
           {/* <Route path='/' exact element={<Palettes />} /> */}
